@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Business Intake · Evergreen Media Labs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+  <div class="background"></div>
+  <main class="form-shell">
+    <div class="form-card">
+      <header>
+        <p class="eyebrow">Business Website Intake Questions</p>
+        <h1>Tell us about your business</h1>
+        <p class="lead">Answer the sections below so we can tailor Evergreen Media Labs’ build to your exact goals.</p>
+      </header>
+
+      <form>
+        <section>
+          <div class="section-head">
+            <h2>1. Basic Business Info</h2>
+          </div>
+          <label>
+            <span>1. Business name</span>
+            <input type="text" placeholder="Example: Evergreen Lawn &amp; Landscape" />
+          </label>
+          <label>
+            <span>2. Tagline or slogan <small>Example: “Fast, Reliable Lawn Care”</small></span>
+            <input type="text" placeholder="Example: Fast, Reliable Lawn Care" />
+          </label>
+          <label>
+            <span>3. Business description <small>Explain what you do in simple words.</small></span>
+            <textarea rows="3" placeholder="We install and service residential sprinkler systems..."></textarea>
+          </label>
+          <label>
+            <span>4. Industry</span>
+            <select>
+              <option>Lawn care</option>
+              <option>Cleaning</option>
+              <option>Landscaping</option>
+              <option>Construction</option>
+              <option>Automotive</option>
+              <option>Real estate</option>
+              <option>Restaurant</option>
+              <option>Other: _______</option>
+            </select>
+          </label>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>2. Website Purpose</h2>
+          </div>
+          <fieldset>
+            <legend>5. What is the main goal of the website?</legend>
+            <label class="inline"><input type="checkbox" /> Get more customers</label>
+            <label class="inline"><input type="checkbox" /> Show services</label>
+            <label class="inline"><input type="checkbox" /> Show portfolio / past work</label>
+            <label class="inline"><input type="checkbox" /> Allow customers to contact me</label>
+            <label class="inline"><input type="checkbox" /> Online booking</label>
+            <label class="inline"><input type="checkbox" /> Sell products</label>
+            <label class="inline"><input type="checkbox" /> Build credibility</label>
+            <label class="inline"><input type="checkbox" /> Other: _______</label>
+          </fieldset>
+          <label>
+            <span>6. Primary call-to-action</span>
+            <select>
+              <option>Call phone number</option>
+              <option>Fill out contact form</option>
+              <option>Request quote</option>
+              <option>Book appointment</option>
+              <option>Visit location</option>
+              <option>Other: _______</option>
+            </select>
+          </label>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>3. Contact Info</h2>
+          </div>
+          <label>
+            <span>7. Phone number</span>
+            <input type="tel" placeholder="(715) 555-1234" />
+          </label>
+          <label>
+            <span>8. Email address</span>
+            <input type="email" placeholder="you@email.com" />
+          </label>
+          <label>
+            <span>9. Business address</span>
+            <input type="text" placeholder="123 Main St, Wausau, WI" />
+          </label>
+          <label>
+            <span>10. Service area <small>Example: “Wausau, Stevens Point, Central Wisconsin”</small></span>
+            <input type="text" />
+          </label>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>4. Services Section</h2>
+          </div>
+          <label>
+            <span>11. List your main services <small>Example: Lawn mowing, Snow removal, Mulching</small></span>
+            <textarea rows="3"></textarea>
+          </label>
+          <label>
+            <span>12. Do you want pricing shown?</span>
+            <select>
+              <option>Yes</option>
+              <option>No</option>
+              <option>Only starting price</option>
+              <option>Only estimates</option>
+            </select>
+          </label>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>5. Design Preferences</h2>
+          </div>
+          <fieldset>
+            <legend>13. Color scheme</legend>
+            <label class="inline"><input type="checkbox" /> Green</label>
+            <label class="inline"><input type="checkbox" /> Blue</label>
+            <label class="inline"><input type="checkbox" /> Black</label>
+            <label class="inline"><input type="checkbox" /> White</label>
+            <label class="inline"><input type="checkbox" /> Red</label>
+            <label class="inline"><input type="checkbox" /> Gray</label>
+            <label class="inline"><input type="checkbox" /> Orange</label>
+            <label class="inline"><input type="checkbox" /> Custom: _______</label>
+          </fieldset>
+          <fieldset>
+            <legend>14. Website style</legend>
+            <label class="inline"><input type="checkbox" /> Modern</label>
+            <label class="inline"><input type="checkbox" /> Minimal</label>
+            <label class="inline"><input type="checkbox" /> Professional</label>
+            <label class="inline"><input type="checkbox" /> Bold</label>
+            <label class="inline"><input type="checkbox" /> Luxury</label>
+            <label class="inline"><input type="checkbox" /> Simple</label>
+            <label class="inline"><input type="checkbox" /> Aggressive</label>
+            <label class="inline"><input type="checkbox" /> Friendly</label>
+          </fieldset>
+          <label>
+            <span>15. Example websites you like</span>
+            <input type="text" placeholder="Paste links" />
+          </label>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>6. Branding</h2>
+          </div>
+          <label>
+            <span>16. Do you have a logo?</span>
+            <select>
+              <option>Yes (upload)</option>
+              <option>No</option>
+              <option>Need one created</option>
+            </select>
+          </label>
+          <label>
+            <span>17. Do you have photos of your work?</span>
+            <select>
+              <option>Yes (upload)</option>
+              <option>No</option>
+              <option>Use stock photos</option>
+              <option>Need photos taken</option>
+            </select>
+          </label>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>7. Features</h2>
+          </div>
+          <fieldset>
+            <legend>18. Features needed</legend>
+            <label class="inline"><input type="checkbox" /> Contact form</label>
+            <label class="inline"><input type="checkbox" /> Quote request form</label>
+            <label class="inline"><input type="checkbox" /> Photo gallery</label>
+            <label class="inline"><input type="checkbox" /> Reviews section</label>
+            <label class="inline"><input type="checkbox" /> Google Maps location</label>
+            <label class="inline"><input type="checkbox" /> Booking system</label>
+            <label class="inline"><input type="checkbox" /> Online payment</label>
+            <label class="inline"><input type="checkbox" /> FAQ section</label>
+          </fieldset>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>8. Technical / Advanced</h2>
+          </div>
+          <label>
+            <span>19. Do you already have a domain?</span>
+            <select>
+              <option>Yes</option>
+              <option>No</option>
+              <option>Not sure</option>
+            </select>
+          </label>
+          <label>
+            <span>If yes, domain name</span>
+            <input type="text" placeholder="example.com" />
+          </label>
+          <label>
+            <span>20. Do you want updates made for you in the future?</span>
+            <select>
+              <option>Yes</option>
+              <option>No</option>
+              <option>Maybe</option>
+            </select>
+          </label>
+        </section>
+
+        <section>
+          <div class="section-head">
+            <h2>Bonus · Preferred layout</h2>
+          </div>
+          <fieldset>
+            <legend>Preferred layout</legend>
+            <label class="inline"><input type="checkbox" /> Home</label>
+            <label class="inline"><input type="checkbox" /> About</label>
+            <label class="inline"><input type="checkbox" /> Services</label>
+            <label class="inline"><input type="checkbox" /> Contact</label>
+            <label class="inline"><input type="checkbox" /> Gallery</label>
+            <label class="inline"><input type="checkbox" /> Reviews</label>
+          </fieldset>
+          <label>
+            <span>Any extra info for us</span>
+            <textarea rows="3"></textarea>
+          </label>
+        </section>
+
+        <button class="submit">Submit intake</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
